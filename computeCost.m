@@ -1,0 +1,1 @@
+% computeCost.mfunction J = computeCost(X, y, theta)    h = X*theta;    base = h - y;    ith = base.^2;    s = sum(ith);    m = length(y);    J = (s /(2*m));
